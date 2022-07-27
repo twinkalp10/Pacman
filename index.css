@@ -1,6 +1,30 @@
 html, body {
-  margin: 10px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  }
+
+.container{
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 4rem;
+  margin: 0;
+  color: burlywood;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.container h3 {
+  color: white;
+  padding-bottom: 2.5rem;
+  font-size: 1.5rem;
+  font-family: 'Karla', sans-serif;
 }
 
 .grid{
@@ -8,7 +32,7 @@ html, body {
   flex-wrap: wrap;
   width: 420px;
   height: 420px;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 
 .grid div {
@@ -23,17 +47,17 @@ html, body {
 }
 
 .wall {
-  background-color: blue;
+  background-color: rgb(141, 122, 122);
 }
 
 .power-pellet{
-  background-color: green;
-  border-radius: 7.5px;
+  background-color: rgb(10, 252, 10);
+  border-radius: 10px;
 }
 
 .pacman {
-  background-color: orange;
-  border-radius: 7.5px;
+  background-color: rgb(255, 196, 0);
+  border-radius: 10px;
   border: none;
 }
 
@@ -48,12 +72,12 @@ html, body {
 }
 
 .inky{
-  background-color: rgb(27, 220, 162);
+  background-color: rgb(45, 209, 160);
   border: none;
 }
 
 .clyde{
-  background-color: rgb(1, 65, 21);
+  background-color: rgb(29, 135, 95);
   border: none;
 }
 

@@ -222,6 +222,6 @@ function checkForWin() {
   if (score === 200) {
     ghosts.forEach((ghost) => clearInterval(ghost.timerId));
     document.removeEventListener("keydown", control);
-    scoreDisplay.innerHTML = "YOU LOSE! 😍🎉";
+    scoreDisplay.innerHTML = "YOU WON! 😍🎉";
   }
 }
